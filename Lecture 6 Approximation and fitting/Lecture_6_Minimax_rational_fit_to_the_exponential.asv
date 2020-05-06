@@ -1,0 +1,11 @@
+clear all
+clc
+
+k=201;
+i=1:201;
+t=-3+6.*i
+
+
+cvx_begin
+    variables a0 a1 a2 b1 b2
+    minimize(max(abs(  ((a0+a1*t+a2*t^2)/(1+b1*t+b2*t^2)) - y
