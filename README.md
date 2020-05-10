@@ -14,3 +14,8 @@ Syllabus
 9. Unconstrained minimization
 10. Equality constrained minimization
 11. Interior point methods
+
+Course takeaways:
+- Lecture 9. Review of algebra and how to optimise basic linear algebra. Good cultural background of BLAS and LAPACK. I need to check ATLAS to optimise blocking.
+- Understanding of dual problem and significance of the many ouput parameters thrown by modern optimisation packages.
+- Beautiful interpretation of SVM and other classification methods in lecutre 8.
